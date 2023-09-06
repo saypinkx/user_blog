@@ -1,0 +1,10 @@
+Описание проекта:
+Реализация блога, где каждый может оставить свое сообщение, предварительно пройдя регистрацию или войдя в профиль.
+Инструкция по установке для просмотра веб-страницы:
+Первый способ:
+docker build -t sixzerx/user_blog .
+docker run --net=host sixzerx/user_blog
+Второй способ:
+docker pull sixzerx/user_blog
+docker run --net=host sixzerx/user_blog
+
